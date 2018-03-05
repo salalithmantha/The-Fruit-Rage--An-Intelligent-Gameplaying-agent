@@ -29,19 +29,9 @@ Next n lines: the n x n board, with one board row per input file line, and n cha
 
 formatted as follows:
 
-First line: your selected move, represented as two characters:
+First line: your selected move, represented as two characters: **A letter** from A to Z representing the column number (where A is the leftmost column, B is the next one to the right, etc), and **A number** from 1 to 26 representing the row number (where 1 is the top row, 2 is the row below it, etc).
 
-**A letter** from A to Z representing the column number (where A is the leftmost
-
-column, B is the next one to the right, etc), and
-
-**A number** from 1 to 26 representing the row number (where 1 is the top row, 2 is
-
-the row below it, etc).
-
-Next n lines: the n x n board just after your move and after gravity has been applied to make
-
-any fruits fall into holes created by your move taking away some fruits.
+Next n lines: the n x n board just after your move and after gravity has been applied to make any fruits fall into holes created by your move taking away some fruits.
 
 
 
@@ -67,9 +57,7 @@ B1
 
 2\*
 
-(remember: B1 means second column, top row, i.e., the agent picked the top right corner cell
-
-and got 2 fruits of type 1. It received 2^2 = 4 points for that move).
+(remember: B1 means second column, top row, i.e., the agent picked the top right corner cell and got 2 fruits of type 1. It received 2^2 = 4 points for that move).
 
 **Example 2:**
 
@@ -179,9 +167,7 @@ For this input.txt (same layout as in Figure 1):
 
 2200022231
 
-one possible correct output.txt is (same move as in Figure 1, and same resulting layout as in
-
-Figure 3):
+one possible correct output.txt is (same move as in Figure 1, and same resulting layout as in Figure 3):
 
 G8
 
